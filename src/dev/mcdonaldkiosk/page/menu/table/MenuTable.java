@@ -22,7 +22,6 @@ import dev.mcdonaldkiosk.page.menu.order.KioskOrderData;
  * 기능 :
  * 메뉴 입력(addMenu)을 통하여 패널에 메뉴 데이터(MenuButton) 입력을 제공한다.
  *
- * @author Jaehyeon Kim
  */
 public abstract class MenuTable {
 

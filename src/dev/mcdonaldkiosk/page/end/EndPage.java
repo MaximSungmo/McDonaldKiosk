@@ -21,9 +21,7 @@ import dev.mcdonaldkiosk.util.Display;
 public class EndPage extends KioskPage {
 
   public EndPage() {
-    super(new PageData.Builder(KioskPage.getKioskOrderData().getPaymentPlace().equals(PaymentPlace.COUNTER)
-                                ? LangCheck.isKorean() ? "sound/counter.wav" : "sound/counter_eng.wav"
-                                : LangCheck.isKorean() ? "sound/end.wav" : "sound/end_eng.wav")
+    super(new PageData.Builder()
                       .nextPageType(KioskPageType.START_PAGE)
                       .build());
 

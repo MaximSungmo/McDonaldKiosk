@@ -1,6 +1,5 @@
 package dev.mcdonaldkiosk.page.payment.card;
 
-import dev.mcdonaldkiosk.lang.LangCheck;
 import dev.mcdonaldkiosk.page.KioskPage;
 import dev.mcdonaldkiosk.page.KioskPageType;
 import dev.mcdonaldkiosk.page.PageData;
@@ -21,7 +20,7 @@ public class PaymentCardPage extends KioskPage {
   private final PaymentCardPanel PAYMENT_CARD_PANEL = new PaymentCardPanel();
 
   public PaymentCardPage() {
-    super(new PageData.Builder(LangCheck.isKorean() ? "sound/card.wav" : "sound/card_eng.wav")
+    super(new PageData.Builder()
                       .nextPageType(KioskPageType.END_PAGE)
                       .previousPageType(KioskPageType.CONFIRM_PAGE)
                       .build());
@@ -51,7 +50,7 @@ public class PaymentCardPage extends KioskPage {
     PAYMENT_CARD_PANEL.getImageTextButton().addMouseListener(new MouseAdapter() {
       @Override
       public void mouseClicked(MouseEvent e) {
-        KioskAudioPlayer.newInstance(LangCheck.isKorean() ? "sound/ing.wav" : "sound/ing_eng.wav").play();
+//        KioskAudioPlayer.newInstance().play();
 
         try {
           Thread.sleep(5000);

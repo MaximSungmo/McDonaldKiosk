@@ -7,7 +7,6 @@ import dev.mcdonaldkiosk.page.menu.order.KioskOrderData;
 /**
  * Class Role : 세트 메뉴의 버튼 구성을 가진 MenuTable이다.
  *
- * @author Jaehyeon Kim
  */
 public class SetMenuTable extends MenuTable {
 

@@ -6,7 +6,6 @@ import dev.mcdonaldkiosk.lang.LangCheck;
  * Class Role : 메뉴의 정보를 담당한다.
  * 메뉴의 기본 구성은 메뉴명, 가격, 칼로리로 구분된다.
  *
- * @author Jaehyeon Kim
  */
 public class Menu {
 

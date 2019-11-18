@@ -7,7 +7,6 @@ import dev.mcdonaldkiosk.page.menu.order.KioskOrderData;
 /**
  * Class Role : 맥 카페 메뉴의 버튼 구성을 가진 MenuTable이다.
  *
- * @author Jaehyeon Kim
  */
 public class McCafeTable extends MenuTable {
 

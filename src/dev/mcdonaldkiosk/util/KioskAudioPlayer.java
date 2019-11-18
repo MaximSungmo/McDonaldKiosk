@@ -1,6 +1,5 @@
 package dev.mcdonaldkiosk.util;
 
-import com.sun.istack.internal.NotNull;
 import java.io.File;
 import java.io.IOException;
 import java.util.HashMap;
@@ -36,12 +35,12 @@ public class KioskAudioPlayer {
    * 오디오 재생이 가능한 플레이어를 생성한다.
    * @return 오디오 경로에 해당하는 KioskAudioPlayer
    */
-  public static KioskAudioPlayer newInstance(@NotNull String audioPath) {
-    if (audioFilePool.get(audioPath) == null) {
-      putNewAudioFile(audioPath);
-    }
-    return new KioskAudioPlayer(audioFilePool.get(audioPath));
-  }
+//  public static KioskAudioPlayer newInstance(String audioPath) {
+//    if (audioFilePool.get(audioPath) == null) {
+//      putNewAudioFile(audioPath);
+//    }
+//    return new KioskAudioPlayer(audioFilePool.get(audioPath));
+//  }
 
   /**
    * audioFilePool에 새로운 오디오 파일을 넣는다.

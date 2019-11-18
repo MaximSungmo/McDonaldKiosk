@@ -12,15 +12,12 @@ import dev.mcdonaldkiosk.util.KioskAudioPlayer;
  * Class Role : 메뉴들은 각각의 버튼으로 구성되어있다.
  * 해당 메뉴버튼을 담당하는 클래스이다.
  * 
- * @author Jaehyeon Kim
  */
 public class MenuButton extends JButton {
 
   private final String PRICE_FONT_COLOR = "red";
   private final String IMG_PATH;
   private final Menu MENU;
-
-  private final KioskAudioPlayer clickBGMPlayer = KioskAudioPlayer.newInstance("sound/beep.wav");
 
   private MenuPage menuPage;
   private final KioskOrderData kioskOrderData;
@@ -50,7 +47,6 @@ public class MenuButton extends JButton {
   private void setListener() {
     this.addActionListener((e) -> {
       /* 음원에 관련된건 음원관련 객체에게 맡긴다. */
-      clickBGMPlayer.play();
 
       kioskOrderData.addMenu(MENU);
       menuPage.reflesh();
