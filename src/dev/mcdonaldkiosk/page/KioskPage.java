@@ -12,10 +12,9 @@ import javax.swing.JPanel;
 import dev.mcdonaldkiosk.main.MainFrame;
 import dev.mcdonaldkiosk.page.menu.order.KioskOrderData;
 import dev.mcdonaldkiosk.util.Display;
-import dev.mcdonaldkiosk.util.KioskAudioPlayer;
 
 /**
- * Class Role : MainFrame 구성에 사용되는 View 컴포넌트 이다.
+ * MainFrame 구성에 사용되는 View 컴포넌트 이다.
  * <p>
  * View 컴포넌트 특징
  * 1. 로딩시 사운드가 실행

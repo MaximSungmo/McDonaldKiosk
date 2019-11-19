@@ -1,13 +1,11 @@
 package dev.mcdonaldkiosk.main;
 
 /**
- * Class Role : 프로그램 실행
- *
- * @author Jaehyeon Kim
+ * 프로그램 실행
  */
 public class Client {
 
-  public static void main(final String[] args) {
-    new MainFrame().setVisible(true); 
-  }
+    public static void main(final String[] args) {
+        new MainFrame().setVisible(true);
+    }
 }

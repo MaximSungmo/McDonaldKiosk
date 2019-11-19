@@ -57,6 +57,7 @@ public class CommonGuidePanel extends JPanel {
 
     /**
      * 컴포넌트를 여러개 받을 수 있도록 처리. for문을 돌며 여러개 붙임.
+     *
      * @param comps
      */
     public void addItem(Component... comps) {

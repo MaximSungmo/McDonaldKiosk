@@ -109,6 +109,7 @@ public class EatPlacePage extends KioskPage {
 
     /**
      * 가이드 패널의 위치 및 크기를 설정한다.
+     *
      * @param guidePanel
      */
     private void initLangPanel(final CommonGuidePanel guidePanel) {

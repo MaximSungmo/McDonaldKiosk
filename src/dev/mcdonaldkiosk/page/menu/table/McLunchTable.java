@@ -5,7 +5,7 @@ import dev.mcdonaldkiosk.page.menu.MenuPage;
 import dev.mcdonaldkiosk.page.menu.order.KioskOrderData;
 
 /**
- * Class Role : 맥 런치 메뉴의 버튼 구성을 가진 MenuTable이다.
+ * 맥 런치 메뉴의 버튼 구성을 가진 MenuTable이다.
  */
 public class McLunchTable extends MenuTable {
 
