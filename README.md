@@ -6,7 +6,7 @@ This project is not related to the actual service.
 <div>
   <img src='./McKiosk01.png' />
   <br/>
-  <img src='./McKiosk02.png' />  
+  <img src='./McKiosk02.png' />  .
 </div>
 
 # Lincense
